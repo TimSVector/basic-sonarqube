@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE coverage SYSTEM 'http://cobertura.sourceforge.net/xml/coverage-04.dtd'>
+<coverage branch-rate="0.6216216216216216" line-rate="0.7638376383763837" timestamp="0" version="VectorCAST 23.sp3 (09/04/23)">
+  <sources>
+    <source>./</source>
+  </sources>
+  <packages>
+    <package name="src" line-rate="0.0" branch-rate="0.0" complexity="1">
+      <classes>
+        <class name="main_c" filename="src/main.c" line-rate="0.0" branch-rate="0.0" complexity="5">
+          <methods/>
+          <lines/>
+        </class>
+      </classes>
+    </package>
+    <package name="src" line-rate="1.0" branch-rate="1.0" complexity="2">
+      <classes>
+        <class name="src_001" filename="src/src_001.c" line-rate="1.0" branch-rate="1.0" complexity="2">
+          <methods/>
+          <lines>
+            <line number="8" hits="1" branch="false"/>
+            <line number="9" hits="1" branch="false"/>
+            <line number="10" hits="1" branch="false"/>
+
+            <line number="12" hits="1" branch="true" condition-coverage="100.0% (2/2)">
+              <conditions>
+                <condition number="0" type="jump" coverage="100.0%"/>
+              </conditions>
+            </line>
+
+            <line number="14" hits="1" branch="false"/>
+            <line number="15" hits="1" branch="false"/>
+            <line number="16" hits="1" branch="false"/>
+            <line number="18" hits="1" branch="false"/>
+            <line number="21" hits="1" branch="false"/>
+
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

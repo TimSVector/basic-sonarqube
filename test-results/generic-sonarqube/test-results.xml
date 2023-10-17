@@ -1,0 +1,5 @@
+<testExecutions  version="1">
+    <file path="test-src/test.c">
+       <testCase name="test_001" duration="32"/> 
+    </file>
+</testExecutions>

@@ -1,16 +1,26 @@
 <?xml version="1.0" encoding='ISO-8859-1' standalone='yes' ?>
 <TestRun>
     <FailedTests>
+        <FailedTest id="2">
+            <Name>test_002</Name>
+            <FailureType>Failure</FailureType>
+            <Location>
+                <File>src/src_001.c</File>
+                <Line>6</Line>
+            </Location>
+            <Message/>
+        </FailedTest>
     </FailedTests>
     <SuccessfulTests>
         <Test id="1">
-            <Name>test_001</Name>
+            <Name>test_001</Name>            
+            <Time>0</Time>
         </Test>
     </SuccessfulTests>
     <Statistics>
-        <Tests>1</Tests>
-        <FailuresTotal>0</FailuresTotal>
+        <Tests>2</Tests>
+        <FailuresTotal>1</FailuresTotal>
         <Errors>0</Errors>
-        <Failures>0</Failures>
+        <Failures>1</Failures>
     </Statistics>
 </TestRun>

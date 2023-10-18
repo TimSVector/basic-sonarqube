@@ -11,13 +11,10 @@ int func_001(void)
     
     while(r > 1000)
     {
-        printf("Randon number %d is > 1000\n",r);
         r = rand();
         ctr++;
     }
-    
-    printf("Randon number %d is <= 1000.  It took %d iterations to find it\n",r,ctr);
-    
+        
     return ctr;
 
 }
